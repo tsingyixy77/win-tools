@@ -1,0 +1,36 @@
+[user]
+	name = tsingyixy
+	email = huiquan.tan@ansys.com
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	stat = status -uno
+	da = diff HEAD origin/HEAD --name-status
+	df = difftool -y HEAD origin/HEAD
+	dff = difftool -y
+	lg = log -5 --graph --pretty=tformat:'%Cred%h%Creset -%C(magenta)%C(bold)%d%Creset %s.%Cgreen(%cr) %C(bold)<%an>%Creset' 
+	ss = status
+	pullr = pull origin master
+	pushr = push origin master
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[core]
+	editor = vim
+	pager = cat
+[push]
+	default = simple
+
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool "vimdiff"]
+	cmd = vim -d \"$LOCAL\" \"$REMOTE\"
+
