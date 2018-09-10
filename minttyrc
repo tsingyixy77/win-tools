@@ -1,0 +1,11 @@
+BoldAsFont=-1
+Font=Input
+FontHeight=11
+ThemeFile=xterm
+Transparency=low
+CursorType=block
+Scrollbar=none
+Term=xterm-256color
+ForegroundColour=255,255,255
+BackgroundColour=17,22,27
+FontWeight=400
